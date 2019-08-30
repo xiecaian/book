@@ -1,0 +1,26 @@
+.container{
+	padding:15px;
+	margin-top:42px;
+	overflow:auto;
+	line-height:25px;
+}
+.round{
+	display:block;
+	position:fixed;
+	right:25px;
+	width:60px;
+	height:60px;
+	border-radius:50%;
+	display:none;
+	
+}
+.j-stop-btn{
+	background:url('../image/sub-2.gif') no-repeat 15px 15px/50% 50%;
+	bottom:50px;
+	background-color:red;
+}
+.j-play-btn{
+	background:url('../image/sub-3.gif') no-repeat 15px 15px/50% 50%;/*向左15px，向下15px/宽原来的50% 高原来的50%*/
+	bottom:150px;
+	background-color:green;
+}

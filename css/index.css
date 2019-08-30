@@ -1,0 +1,42 @@
+
+.container{
+	margin-top:42px;
+	overflow:auto;
+}
+.container .list-item{
+	position:relative;
+	height:150px;
+	border-bottom:1px solid #ddd;
+}
+.container .bk-pic{
+	position:absolute;
+	left:0;
+	top:0;
+	height:150px;
+	padding:10px;
+	bolder:1px solid #000;
+}
+.container .bk-info{
+	margin-left: 211px;
+	padding:10px;
+	
+}
+.container .bk-info p{
+	margin-top: 15px;
+	
+	
+}
+.container .intro{
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+}
+.return-bh{
+	position:fixed;
+	bottom:50px;
+	right:50px;
+	z-index:2;
+	background-color:red;
+	display:none;
+	
+}
